@@ -37,7 +37,7 @@ td{padding:10px 12px;color:#3a3a38;border:1px solid #e5e5e3;vertical-align:top;}
   <div class="header">
     <div class="app-name">AMPNEST</div>
     <h1>Privacy Policy</h1>
-    <div class="meta">Effective Date: June 14, 2025 &nbsp;·&nbsp; Last Updated: June 14, 2025</div>
+    <div class="meta">Effective Date: <span id="eff-date"></span></div>
   </div>
 
   <div class="highlight-box">
@@ -163,10 +163,17 @@ td{padding:10px 12px;color:#3a3a38;border:1px solid #e5e5e3;vertical-align:top;}
   </div>
 
   <div class="footer">
-    <p>© 2025 AmpNest. All rights reserved.</p>
-    <p style="margin-top:6px;">This Privacy Policy was last updated on June 14, 2025.</p>
+    <p>&copy; <span id="copy-yr"></span> AmpNest. All rights reserved.</p>
+    <p style="margin-top:6px;">This Privacy Policy was last updated on <span id="footer-date"></span>.</p>
   </div>
 
 </div>
+<script>
+document.querySelectorAll("#copy-yr").forEach(function(el){el.textContent=new Date().getFullYear();});
+var d=new Date();var months=["January","February","March","April","May","June","July","August","September","October","November","December"];
+var ds=months[d.getMonth()]+" "+d.getDate()+", "+d.getFullYear();
+document.querySelectorAll("#eff-date").forEach(function(el){el.textContent=ds;});
+document.querySelectorAll("#footer-date").forEach(function(el){el.textContent=ds;});
+</script>
 </body>
 </html>
