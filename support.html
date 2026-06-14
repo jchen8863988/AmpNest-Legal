@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>AmpNest — Technical Support</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;background:#ffffff;color:#1a1a18;line-height:1.7;padding:0;}
+.container{max-width:780px;margin:0 auto;padding:48px 24px;}
+.header{border-bottom:1px solid #e5e5e3;padding-bottom:28px;margin-bottom:36px;}
+.app-name{font-size:13px;font-weight:500;color:#1D9E75;letter-spacing:.06em;margin-bottom:8px;}
+h1{font-size:28px;font-weight:500;color:#1a1a18;margin-bottom:8px;}
+.meta{font-size:13px;color:#9b9b96;}
+h2{font-size:18px;font-weight:500;color:#1a1a18;margin:36px 0 12px;}
+h3{font-size:15px;font-weight:500;color:#1a1a18;margin:20px 0 8px;}
+p{font-size:14px;color:#3a3a38;margin-bottom:14px;}
+ul,ol{font-size:14px;color:#3a3a38;margin:0 0 14px 20px;}
+li{margin-bottom:8px;}
+.contact-box{background:#E1F5EE;border-radius:8px;padding:20px 24px;margin:24px 0;}
+.contact-box .label{font-size:12px;font-weight:500;color:#0F6E56;letter-spacing:.05em;margin-bottom:6px;}
+.contact-box .email{font-size:16px;font-weight:500;color:#085041;}
+.contact-box .email a{color:#085041;text-decoration:none;}
+.contact-box .note{font-size:13px;color:#0F6E56;margin-top:6px;}
+.faq-item{background:#f5f5f4;border-radius:8px;padding:16px 18px;margin-bottom:10px;}
+.faq-q{font-size:14px;font-weight:500;color:#1a1a18;margin-bottom:6px;}
+.faq-a{font-size:13px;color:#3a3a38;line-height:1.6;}
+.step-block{background:#f5f5f4;border-radius:8px;padding:16px 18px;margin-bottom:12px;}
+.step-num{font-size:12px;font-weight:500;color:#1D9E75;margin-bottom:4px;}
+.step-title{font-size:14px;font-weight:500;color:#1a1a18;margin-bottom:4px;}
+.step-desc{font-size:13px;color:#3a3a38;line-height:1.6;}
+.warn-box{background:#FAEEDA;border-left:3px solid #854F0B;border-radius:0 6px 6px 0;padding:12px 16px;margin:16px 0;}
+.warn-box p{margin:0;font-size:13px;color:#633806;}
+.divider{height:1px;background:#e5e5e3;margin:32px 0;}
+.footer{margin-top:48px;padding-top:24px;border-top:1px solid #e5e5e3;font-size:12px;color:#9b9b96;text-align:center;}
+.badge{display:inline-block;font-size:11px;padding:2px 8px;border-radius:20px;font-weight:500;margin-left:6px;}
+.badge-pro{background:#E1F5EE;color:#085041;}
+.badge-proplus{background:#E6F1FB;color:#0C447C;}
+a{color:#1D9E75;}
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="header">
+    <div class="app-name">AMPNEST</div>
+    <h1>Technical Support</h1>
+    <div class="meta">Customer &amp; Technical Support Center</div>
+  </div>
+
+  <div class="contact-box">
+    <div class="label">CONTACT CUSTOMER TECHNICAL SUPPORT</div>
+    <div class="email"><a href="mailto:ampnest@familymedvault.com">ampnest@familymedvault.com</a></div>
+    <div class="note">We respond within 2 business days. Please include your device model, iOS version, and a description of the issue.</div>
+  </div>
+
+  <h2>Before You Contact Us</h2>
+  <p>Most issues can be resolved quickly with the steps below. Please try these first.</p>
+
+  <h3>General Troubleshooting</h3>
+  <div class="step-block">
+    <div class="step-num">STEP 1</div>
+    <div class="step-title">Force-quit and relaunch AmpNest</div>
+    <div class="step-desc">Swipe up from the bottom of your screen, find AmpNest, swipe it up to close, then reopen the app.</div>
+  </div>
+  <div class="step-block">
+    <div class="step-num">STEP 2</div>
+    <div class="step-title">Check your internet connection</div>
+    <div class="step-desc">AmpNest requires an active internet connection to sync charging data and spot status. Try switching between Wi-Fi and cellular.</div>
+  </div>
+  <div class="step-block">
+    <div class="step-num">STEP 3</div>
+    <div class="step-title">Update to the latest version</div>
+    <div class="step-desc">Open the App Store, search for AmpNest, and tap Update if available. Many issues are resolved in the latest release.</div>
+  </div>
+  <div class="step-block">
+    <div class="step-num">STEP 4</div>
+    <div class="step-title">Restart your device</div>
+    <div class="step-desc">A full device restart clears temporary system issues that may affect app performance.</div>
+  </div>
+
+  <div class="divider"></div>
+
+  <h2>Frequently Asked Questions</h2>
+
+  <h3>Tesla Account Connection <span class="badge badge-pro">Pro</span> <span class="badge badge-proplus">Pro+</span></h3>
+
+  <div class="faq-item">
+    <div class="faq-q">My Tesla account won't connect — what should I do?</div>
+    <div class="faq-a">Go to Settings → Tesla Account → Disconnect, then reconnect. Make sure you are using your Tesla account credentials (not a third-party login). Tesla OAuth sessions expire periodically — reconnecting generates a fresh token. If the issue persists, check that your Tesla app is working normally on the same device.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">My charging data isn't updating.</div>
+    <div class="faq-a">Tesla API data typically refreshes every 5–10 minutes while your vehicle is charging. If data is stale for more than 30 minutes, go to Settings → Tesla Account → Refresh. Note: Tesla's servers occasionally experience delays independent of AmpNest. If your Tesla app also shows stale data, the issue is on Tesla's end.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">How do I revoke AmpNest's Tesla access?</div>
+    <div class="faq-a">Open the Tesla mobile app → Profile → Connected Services → Third-Party Apps → find AmpNest → Revoke Access. You can also go to AmpNest Settings → Tesla Account → Disconnect at any time.</div>
+  </div>
+
+  <h3>Charging Spot Booking</h3>
+
+  <div class="faq-item">
+    <div class="faq-q">I can't see my building's charging spots.</div>
+    <div class="faq-a">Your building manager (the person who set up AmpNest for your building) needs to invite you via an invite code or QR code. If you are the first AmpNest user in your building, you can create a building in Settings → My Building → Create New Building.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">I missed my booking window — what happened?</div>
+    <div class="faq-a">If you do not arrive within your grace period (10 minutes for Free/Pro, 15 minutes for Pro+) after a spot becomes available, the system automatically passes it to the next person in queue. You will receive a "booking expired" notification. You can rejoin the queue immediately.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">How do I cancel a booking?</div>
+    <div class="faq-a">On the main Charging Spots screen, tap your active booking card, then tap "Cancel Booking." A confirmation dialog will appear showing the booking details. Confirm to release the slot. The next person in queue is notified automatically. Note: Cancellations within 30 minutes of start time count toward your monthly cancellation limit (3 per month before priority is temporarily reduced).</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">Push notifications are not arriving.</div>
+    <div class="faq-a">1. Check iOS Settings → Notifications → AmpNest — ensure Allow Notifications is enabled and alerts are set to "Immediate Delivery." 2. In AmpNest Settings → Notifications, verify the relevant notification type is switched on. 3. Check that Do Not Disturb / Focus mode is not blocking AmpNest. 4. For web (QR code) users: ensure you tapped "Allow" on the browser notification permission prompt and have not blocked the site in browser settings.</div>
+  </div>
+
+  <h3>Billing &amp; Subscription</h3>
+
+  <div class="faq-item">
+    <div class="faq-q">How do I upgrade from Free to Pro or Pro+?</div>
+    <div class="faq-a">Go to AmpNest Settings → Subscription → Upgrade Plan. All purchases are processed securely by Apple. Your Pro or Pro+ features activate immediately upon purchase confirmation.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">How do I cancel my subscription?</div>
+    <div class="faq-a">Subscriptions are managed by Apple: open iOS Settings → your Apple ID → Subscriptions → AmpNest → Cancel Subscription. AmpNest cannot cancel subscriptions on your behalf. After cancellation, your plan remains active until the end of the current billing period.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">I was charged after my free trial — can I get a refund?</div>
+    <div class="faq-a">Refund requests for App Store purchases must be submitted directly to Apple at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>. Apple handles all billing and has sole authority to issue refunds. AmpNest does not process or receive payment card information.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">How do I restore my purchase on a new device?</div>
+    <div class="faq-a">Sign in to AmpNest with the same account, then go to Settings → Subscription → Restore Purchases. Your subscription is linked to your Apple ID and will restore automatically when you sign in to the App Store with the same Apple ID.</div>
+  </div>
+
+  <h3>Savings Calculations</h3>
+
+  <div class="faq-item">
+    <div class="faq-q">Why does my savings amount look different from my actual bill?</div>
+    <div class="faq-a">AmpNest calculates estimated costs using Tesla API kWh data multiplied by your selected utility rate plan from our built-in rate database. Actual utility bills may differ due to taxes, fees, tiered usage adjustments, or rate changes not yet reflected in our database. Our savings dashboard shows estimates — always refer to your actual utility bill for exact charges.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">My electricity provider isn't in the list.</div>
+    <div class="faq-a">We currently cover major U.S. providers including SCE, PG&E, ConEd, and others. Email us with your provider and rate plan name — we add new providers regularly based on user requests.</div>
+  </div>
+
+  <div class="divider"></div>
+
+  <h2>Contact Support</h2>
+  <p>If the above steps did not resolve your issue, please email us. To help us assist you faster, include:</p>
+  <ul>
+    <li>Your AmpNest account email address</li>
+    <li>Your device model (e.g., iPhone 15 Pro) and iOS version</li>
+    <li>AmpNest app version (Settings → About)</li>
+    <li>A clear description of the issue and what you were doing when it occurred</li>
+    <li>Screenshots or screen recordings if applicable</li>
+  </ul>
+
+  <div class="contact-box">
+    <div class="label">CONTACT CUSTOMER TECHNICAL SUPPORT</div>
+    <div class="email"><a href="mailto:ampnest@familymedvault.com">ampnest@familymedvault.com</a></div>
+    <div class="note">Response within 2 business days · Monday through Friday</div>
+  </div>
+
+  <div class="warn-box">
+    <p>AmpNest is an independent app and is not affiliated with Tesla, Inc., Apple Inc., or any electricity utility provider. For issues related to your Tesla vehicle, Tesla app, or Apple billing, please contact those companies directly.</p>
+  </div>
+
+  <div class="footer">
+    <p>&copy; <span id="copy-yr"></span> AmpNest. All rights reserved.</p>
+    <p style="margin-top:6px;">AmpNest Technical Support · <a href="mailto:ampnest@familymedvault.com">ampnest@familymedvault.com</a></p>
+  </div>
+
+</div>
+<script>
+document.querySelectorAll("#copy-yr").forEach(function(el){el.textContent=new Date().getFullYear();});
+var d=new Date();var months=["January","February","March","April","May","June","July","August","September","October","November","December"];
+var ds=months[d.getMonth()]+" "+d.getDate()+", "+d.getFullYear();
+document.querySelectorAll("#eff-date").forEach(function(el){el.textContent=ds;});
+</script>
+</body>
+</html>
